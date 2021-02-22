@@ -1,0 +1,130 @@
+body{
+    background-image: linear-gradient(to right,rgb(140,198,236),rgb(145,169,229));
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+
+}
+#form-creation-compte{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    position: relative;
+    display: flex;
+    background-color:white;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 3px 8px gray;  
+}
+.f-right{
+    width: 50%;
+    position: relative;
+    background-color:rgb(73,53,212);
+    border-radius:0 15px 15px 0;
+    color: rgba(255, 255, 255, .8);
+}
+.f-right{
+    max-width: 50%;
+    position: relative;
+    color: rgba(255, 255, 255, .8);
+}
+
+form fieldset{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+    border: none;
+    padding: 30px;
+}
+/*
+.f-left fieldset p{
+    position: relative;
+    max-width: 100%;
+}
+
+.f-left fieldset p input:only-child{
+    width: 100%;
+}
+
+
+
+form fieldset{
+    position: relative;
+    width: 100%;
+}
+form fieldset p input:only-child{
+    width: 100%;
+}
+*/
+div fieldset p input{
+    padding: 10px;
+    background: none;
+    border: none;
+    color: white;
+    border-bottom: solid 1px gray;
+}
+div fieldset p select{
+    padding: 10px;
+    background: none;
+    border: none;
+    border-bottom: solid 1px gray;
+}
+div fieldset p select:only-child{
+    width: 87%;
+}
+
+div fieldset p input:only-child{
+    width: 83%;
+}
+select[name="employees"]{
+    width: 43%;
+}
+.f-right input::placeholder,.f-right fieldset p select{
+    color: rgba(255, 255, 255, .8);
+    font-size: 14px;
+}
+#terms-conditions{
+    display: inline-block;
+    width: 300px;
+}
+label[for="terms"]{
+    float: right;
+    color:white;
+    margin-left: 35px;
+    margin-top: -20px;
+}
+
+label[for="terms"] a{
+    color:white;
+}
+
+button[type="submit"]{
+    background: none,white;
+    padding:15px 25px;
+    border: none;
+    font-weight: bold;
+    color: rgb(73,53,212);
+    border-radius: 20px;
+}
+button[type="submit"]:hover{
+    cursor: pointer;
+}
+.f-left legend{
+    color: rgb(81,132,217);
+}
+.f-left p input:focus,.f-left select:focus
+{
+    border: none, 1px solid gray;
+    outline: none;
+    color:rgba(0, 0,0, .8);
+}
+.f-right p input:focus,.f-right select:focus
+{
+    border: none, 1px solid gray;
+    outline: none;
+}

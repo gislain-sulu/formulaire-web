@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>formulaire-creation-compte</title>
+</head>
+<body>
+        <div id="form-creation-compte">
+        <form action="">
+            <div class="f-left">
+                <fieldset>
+                    <legend>General Information</legend>
+                    <p>
+                        <select name="title" id="title">
+                            <option value="Title" selected>Title</option>
+                            <option value="directeur">directeur</option>
+                            <option value="secretaire">secretaire</option>
+                        </select>
+                    </p>
+                    <p>
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+                    </p>
+                    <p>
+                        <select name="position" id="position">
+                            <option value="Position" selected>Position</option>
+                            <option value="A">A</option>
+                            <option value="B">B</option>
+                        </select>
+                    </p>
+                    <p><input type="text" placeholder="Company"></p>
+                    <p>
+                        <input type="text" placeholder="Business Arena">
+                        <select name="employees" id="employees">
+                            <option value="employees" selected>employees</option>
+                            <option value="microsoft">microsoft</option>
+                            <option value="samsung">samsung</option>
+                        </select>
+                    </p>
+                </fieldset>
+            </div>
+            <div class="f-right">
+                <fieldset>
+                    <legend>Contact Details</legend>
+                    <p><input type="text" placeholder="Street + Nr"></p>
+                    <p><input type="text" placeholder="Additional Information"></p>
+                    <p>
+                        <input type="number" placeholder="Zip Code">
+                        <input type="number" placeholder="Place">
+                    </p>
+                    <p>
+                        <select name="country" id="country">
+                            <option value="country" selected>Country</option>
+                            <option value="drc">drc</option>
+                            <option value="rwanda">rwanda</option>
+                            <option value="ouganda">ouganda</option>
+                            <option value="egypte">egypte</option>
+                        </select>
+                    </p>
+                    <p>
+                        <input type="number" placeholder="Code+">
+                        <input type="tel" placeholder="Phone Number">
+                    </p>
+                    <p>
+                        <input type="email" placeholder="Your Email">
+                    </p>
+                    <p id="terms-conditions">
+                        <input type="radio" id="terms" checked> <label for="terms">I do accept the <a href="#"><b>Terms and Conditions</b></a> of your site</label>
+                    </p>
+                    <p><button type="submit">Register Badge</button></p>
+                </fieldset>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
